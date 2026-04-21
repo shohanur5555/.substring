@@ -1,0 +1,10 @@
+String revarse(String text){
+  String result = "";
+  for( int i = text.length; i > 0; i--){
+    result += text.substring(i-1, i);
+  }
+  return result;
+}
+void main(){
+  print(revarse("shohan"));
+}
