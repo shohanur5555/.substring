@@ -1,0 +1,10 @@
+String removeFirstChar(String text){
+  String result = text.substring(1,text.length);
+  return result;
+}
+
+
+
+void main(){
+  print(removeFirstChar("Shohan"));
+}
