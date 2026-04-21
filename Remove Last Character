@@ -1,0 +1,9 @@
+void main(){
+  String text = "hello";
+  String result = "";
+  
+  result = text.substring(0,text.length-1);
+  
+  print(result);
+  
+}
