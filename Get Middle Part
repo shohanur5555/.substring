@@ -1,0 +1,7 @@
+String getMiddlePart(String text){
+  String result = text.substring(1,text.length-1);
+  return result;
+}
+void main(){
+  print(getMiddlePart("Shohan"));
+}
