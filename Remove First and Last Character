@@ -1,0 +1,9 @@
+String removeFirstAndLastChar(String text){
+  String result = "";
+  result = text.substring(1,text.length-1);
+  return result;
+}
+
+void main(){
+  print(removeFirstAndLastChar("Flutter"));
+}
