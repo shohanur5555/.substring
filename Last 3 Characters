@@ -1,0 +1,10 @@
+String lastThereeChar(String text){
+  String result = "";
+  result = text.substring(text.length-3, text.length);
+  
+  return result;
+}
+
+void main(){
+  print(lastThereeChar("Flutter"));
+}
