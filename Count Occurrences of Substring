@@ -1,0 +1,12 @@
+int countOcurrences(String text, String content){
+  int count = 0;
+  for(int i = 0; i <= text.length-content.length; i++){
+    if(text.substring(i,i+content.length) == content){
+      count++;
+    }
+  }
+  return count;
+}
+void main(){
+  print(countOcurrences("bananan","an"));
+}
