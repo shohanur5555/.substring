@@ -1,0 +1,11 @@
+String firstWord(String text) {
+  String result = "";
+
+  List<String> word = text.trim().split(" ");
+  result = word[0];
+  return result;
+}
+
+void main() {
+  print(firstWord("Hello world"));
+}
