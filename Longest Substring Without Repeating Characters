@@ -16,7 +16,7 @@ int maxLength(String text){
   }
  }
   
-  print("max length is :- $maxLength that is -> $current");
+  print("max length is :- $maxLength");
   return maxLength;
 }
 void main(){
