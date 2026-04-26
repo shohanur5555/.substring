@@ -1,0 +1,24 @@
+int maxLength(String text){
+  int maxLength = 0;
+  String current = "";
+  
+ for(int i = 0; i < text.length;i++){
+   String char = text[i];
+   
+   if(current.contains(char)){
+     int index = current.indexOf(char);
+     current = current.substring(index+1);
+   }
+   current += char;
+   
+   if(current.length > maxLength){
+    maxLength = current.length;
+  }
+ }
+  
+  print("max length is :- $maxLength");
+  return maxLength;
+}
+void main(){
+  maxLength("abcabcbb");
+}
